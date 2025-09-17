@@ -153,15 +153,19 @@ class Blockk(nn.Module):
     def __init__(self, config):
         super().__init__()
         self.ln_1 = LayerNorm(config.n_embd, bias=config.bias)
-        # self.attn = LastKTokensAttention(config)
-        self.attn = CausalSelfAttentionWithCache(config)
+        self.attn_c = CausalSelfAttention(config)
+        self.attn_w = LastKTokensAttention(config)
         self.ln_2 = LayerNorm(config.n_embd, bias=config.bias)
         self.mlp = MLP(config)
 
-    def forward(self, x):
-        x = x + self.attn(self.ln_1(x))
-        x = x + self.mlp(self.ln_2(x))
-        return x
+    def forward(self, x_causal, x_window):
+        x_causal = x_causal + self.attn_c(self.ln_1(x_causal))
+        x_causal = x_causal + self.mlp(self.ln_2(x_causal))
+
+        x_window = 0.2 * x_window + 0.8 * x_causal # temp weighting
+        x_window = x_window + self.attn_w(self.ln_1(x_window))
+        x_window = x_window + self.mlp(self.ln_2(x_window))
+        return x_causal, x_window
 
 
 class GPPT(nn.Module):
@@ -238,10 +242,12 @@ class GPPT(nn.Module):
             # forward the GPT on the prefix
             tok_emb = self.transformer.wte(idx_k)            # (b, k, n_embd)
             pos_emb = self.transformer.wpe(pos_k)            # (k, n_embd)
-            x = self.transformer.drop(tok_emb + pos_emb)     # (b, k, n_embd)
+            x_causal = self.transformer.drop(tok_emb + pos_emb)     # (b, k, n_embd)
+
+            x_window = x_causal.clone()
             for block in self.transformer.h:
-                x = block(x)                                 # (b, k, n_embd)
-            x = self.transformer.ln_f(x)                     # (b, k, n_embd)
+                x_causal, x_window = block(x_causal, x_window)                                 # (b, k, n_embd)
+            x = self.transformer.ln_f(x_window)                     # (b, k, n_embd)
 
             # as in inference: only take the last position's hidden state for this step
             step_logits = self.lm_head(x[:, [-1], :])        # (b, 1, vocab_size)
