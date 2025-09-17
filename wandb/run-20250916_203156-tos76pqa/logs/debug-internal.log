@@ -1,0 +1,15 @@
+{"time":"2025-09-16T20:31:56.637526682-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/tzeng/repos/kv_na/wandb/run-20250916_203156-tos76pqa/logs/debug-core.log"}
+{"time":"2025-09-16T20:31:57.043289412-05:00","level":"INFO","msg":"created new stream","id":"tos76pqa"}
+{"time":"2025-09-16T20:31:57.04335757-05:00","level":"INFO","msg":"stream: started","id":"tos76pqa"}
+{"time":"2025-09-16T20:31:57.04341061-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"tos76pqa"}
+{"time":"2025-09-16T20:31:57.043432152-05:00","level":"INFO","msg":"handler: started","stream_id":"tos76pqa"}
+{"time":"2025-09-16T20:31:57.043468642-05:00","level":"INFO","msg":"sender: started","stream_id":"tos76pqa"}
+{"time":"2025-09-16T20:31:56.857198328-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-16T20:32:17.945893216-05:00","level":"INFO","msg":"stream: closing","id":"tos76pqa"}
+{"time":"2025-09-16T20:32:17.945932913-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-16T20:32:17.945965324-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-16T20:32:18.576709525-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-16T20:32:18.902569836-05:00","level":"INFO","msg":"handler: closed","stream_id":"tos76pqa"}
+{"time":"2025-09-16T20:32:18.9026073-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tos76pqa"}
+{"time":"2025-09-16T20:32:18.902641924-05:00","level":"INFO","msg":"sender: closed","stream_id":"tos76pqa"}
+{"time":"2025-09-16T20:32:18.902664088-05:00","level":"INFO","msg":"stream: closed","id":"tos76pqa"}

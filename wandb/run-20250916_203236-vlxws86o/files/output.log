@@ -1,0 +1,32 @@
+step 0: train loss 4.2985, val loss 4.3203
+iter 0: loss 4.3259, time 1853.70ms, mfu -100.00%
+iter 10: loss 3.2719, time 437.86ms, mfu 0.10%
+iter 20: loss 2.8463, time 577.13ms, mfu 0.10%
+iter 30: loss 2.6184, time 470.50ms, mfu 0.10%
+iter 40: loss 2.6032, time 653.44ms, mfu 0.09%
+iter 50: loss 2.5377, time 461.52ms, mfu 0.09%
+iter 60: loss 2.5477, time 592.27ms, mfu 0.09%
+iter 70: loss 2.4779, time 513.10ms, mfu 0.09%
+iter 80: loss 2.5275, time 417.38ms, mfu 0.09%
+iter 90: loss 2.4857, time 443.52ms, mfu 0.09%
+iter 100: loss 2.4900, time 454.47ms, mfu 0.09%
+iter 110: loss 2.4566, time 514.19ms, mfu 0.09%
+iter 120: loss 2.4830, time 443.47ms, mfu 0.09%
+iter 130: loss 2.3935, time 520.51ms, mfu 0.09%
+iter 140: loss 2.3634, time 485.79ms, mfu 0.09%
+iter 150: loss 2.3605, time 594.56ms, mfu 0.09%
+iter 160: loss 2.2929, time 448.53ms, mfu 0.09%
+iter 170: loss 2.3992, time 572.28ms, mfu 0.09%
+iter 180: loss 2.2987, time 563.27ms, mfu 0.09%
+iter 190: loss 2.2875, time 469.86ms, mfu 0.09%
+Traceback (most recent call last):
+  File "/home/tzeng/repos/kv_na/train.py", line 306, in <module>
+    scaler.scale(loss).backward()
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/autograd/__init__.py", line 353, in backward
+    _engine_run_backward(
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/autograd/graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

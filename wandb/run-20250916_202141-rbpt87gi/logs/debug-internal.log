@@ -1,0 +1,15 @@
+{"time":"2025-09-16T20:21:41.071317101-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/tzeng/repos/kv_na/wandb/run-20250916_202141-rbpt87gi/logs/debug-core.log"}
+{"time":"2025-09-16T20:21:41.385458911-05:00","level":"INFO","msg":"created new stream","id":"rbpt87gi"}
+{"time":"2025-09-16T20:21:41.385516287-05:00","level":"INFO","msg":"stream: started","id":"rbpt87gi"}
+{"time":"2025-09-16T20:21:41.385603955-05:00","level":"INFO","msg":"handler: started","stream_id":"rbpt87gi"}
+{"time":"2025-09-16T20:21:41.385655221-05:00","level":"INFO","msg":"sender: started","stream_id":"rbpt87gi"}
+{"time":"2025-09-16T20:21:41.385657672-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"rbpt87gi"}
+{"time":"2025-09-16T20:21:41.633103688-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-16T20:22:28.945636365-05:00","level":"INFO","msg":"stream: closing","id":"rbpt87gi"}
+{"time":"2025-09-16T20:22:28.945663408-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-16T20:22:28.945800142-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-16T20:22:29.46804452-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-16T20:22:29.71120066-05:00","level":"INFO","msg":"handler: closed","stream_id":"rbpt87gi"}
+{"time":"2025-09-16T20:22:29.711233177-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rbpt87gi"}
+{"time":"2025-09-16T20:22:29.711283694-05:00","level":"INFO","msg":"sender: closed","stream_id":"rbpt87gi"}
+{"time":"2025-09-16T20:22:29.711324355-05:00","level":"INFO","msg":"stream: closed","id":"rbpt87gi"}

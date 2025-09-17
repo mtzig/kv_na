@@ -1,0 +1,15 @@
+{"time":"2025-09-16T20:40:15.496634542-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/tzeng/repos/kv_na/wandb/run-20250916_204015-m67skvk3/logs/debug-core.log"}
+{"time":"2025-09-16T20:40:16.010015752-05:00","level":"INFO","msg":"created new stream","id":"m67skvk3"}
+{"time":"2025-09-16T20:40:16.010086347-05:00","level":"INFO","msg":"stream: started","id":"m67skvk3"}
+{"time":"2025-09-16T20:40:16.010134307-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"m67skvk3"}
+{"time":"2025-09-16T20:40:16.010164113-05:00","level":"INFO","msg":"sender: started","stream_id":"m67skvk3"}
+{"time":"2025-09-16T20:40:16.01019284-05:00","level":"INFO","msg":"handler: started","stream_id":"m67skvk3"}
+{"time":"2025-09-16T20:40:16.335511042-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-16T20:40:45.476290796-05:00","level":"INFO","msg":"stream: closing","id":"m67skvk3"}
+{"time":"2025-09-16T20:40:45.476323009-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-16T20:40:45.476358988-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-16T20:40:46.172114962-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-16T20:40:46.88344346-05:00","level":"INFO","msg":"handler: closed","stream_id":"m67skvk3"}
+{"time":"2025-09-16T20:40:46.883482066-05:00","level":"INFO","msg":"sender: closed","stream_id":"m67skvk3"}
+{"time":"2025-09-16T20:40:46.883478284-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"m67skvk3"}
+{"time":"2025-09-16T20:40:46.883555579-05:00","level":"INFO","msg":"stream: closed","id":"m67skvk3"}

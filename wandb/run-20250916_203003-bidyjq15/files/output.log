@@ -1,0 +1,615 @@
+t1
+t2
+t3
+step 0: train loss 4.2985, val loss 4.3203
+t4
+tensor(2.1508, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(2.1629, device='cuda:0', grad_fn=<DivBackward0>)
+iter 0: loss 4.3259, time 1905.78ms, mfu -100.00%
+t1
+t2
+t4
+tensor(2.0797, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(2.0871, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.9604, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.9662, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.8463, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.8617, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.8053, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.7915, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.7560, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.7573, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.6891, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.7000, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.6761, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.7027, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.7052, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.6655, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.6268, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.6181, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.5711, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.6360, device='cuda:0', grad_fn=<DivBackward0>)
+iter 10: loss 3.2719, time 458.81ms, mfu 0.09%
+t1
+t2
+t4
+tensor(1.6033, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.5836, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.6072, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.5645, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.5755, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.5466, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.4971, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.5169, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.5207, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.5224, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.4796, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.4642, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.4633, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.4585, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.4444, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.4100, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.4316, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.4463, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.4158, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.4231, device='cuda:0', grad_fn=<DivBackward0>)
+iter 20: loss 2.8463, time 457.84ms, mfu 0.09%
+t1
+t2
+t4
+tensor(1.3757, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3963, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3903, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.4343, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3589, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.4106, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3732, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3690, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3379, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3902, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3723, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3583, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3984, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3582, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3332, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3770, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3218, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3355, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3222, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3092, device='cuda:0', grad_fn=<DivBackward0>)
+iter 30: loss 2.6184, time 496.28ms, mfu 0.09%
+t1
+t2
+t4
+tensor(1.2865, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3468, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2859, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3037, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3114, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3228, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3033, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3198, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3333, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3508, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3270, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2743, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3154, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3021, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3128, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3224, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2838, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3261, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3187, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3016, device='cuda:0', grad_fn=<DivBackward0>)
+iter 40: loss 2.6032, time 493.48ms, mfu 0.09%
+t1
+t2
+t4
+tensor(1.3003, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2793, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2722, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3341, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2914, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2901, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3247, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3056, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2804, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2660, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2782, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2719, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2942, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2898, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3021, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2887, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2708, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3165, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2882, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2689, device='cuda:0', grad_fn=<DivBackward0>)
+iter 50: loss 2.5377, time 534.21ms, mfu 0.09%
+t1
+t2
+t4
+tensor(1.2955, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2870, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2614, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3320, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3033, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2717, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2943, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3232, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3087, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2671, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2926, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3073, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2608, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3065, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2551, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.3121, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2693, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2668, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2663, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2738, device='cuda:0', grad_fn=<DivBackward0>)
+iter 60: loss 2.5477, time 466.83ms, mfu 0.09%
+t1
+t2
+t4
+tensor(1.2687, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2402, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2903, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2960, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2871, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2677, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2623, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2488, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2834, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2771, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2660, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2493, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3099, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2996, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2607, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2586, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2843, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2760, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2369, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2389, device='cuda:0', grad_fn=<DivBackward0>)
+iter 70: loss 2.4779, time 470.49ms, mfu 0.09%
+t1
+t2
+t4
+tensor(1.2943, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2320, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2573, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2862, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2690, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2694, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.3250, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2522, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2714, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2569, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2398, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2714, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2526, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2963, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2545, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2796, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2796, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2466, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2778, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2638, device='cuda:0', grad_fn=<DivBackward0>)
+iter 80: loss 2.5275, time 407.04ms, mfu 0.09%
+t1
+t2
+t4
+tensor(1.2476, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2855, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2723, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2500, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2439, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2338, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2599, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2644, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2566, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2549, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2632, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2586, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2610, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2653, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2632, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2746, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2210, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2302, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2611, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2429, device='cuda:0', grad_fn=<DivBackward0>)
+iter 90: loss 2.4857, time 451.92ms, mfu 0.09%
+t1
+t2
+t4
+tensor(1.2958, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2431, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2671, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2492, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2132, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2224, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2635, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2467, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2111, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2158, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2246, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2557, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2201, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2676, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2232, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2504, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2470, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2303, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2386, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2450, device='cuda:0', grad_fn=<DivBackward0>)
+iter 100: loss 2.4900, time 445.69ms, mfu 0.09%
+t1
+t2
+t4
+tensor(1.2519, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2725, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2274, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2191, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2578, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2967, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2287, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2387, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2326, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2175, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2349, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.1955, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2262, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2148, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2262, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2378, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2354, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2375, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2053, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2283, device='cuda:0', grad_fn=<DivBackward0>)
+iter 110: loss 2.4566, time 664.82ms, mfu 0.09%
+t1
+t2
+t4
+tensor(1.2350, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2014, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2540, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2346, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2588, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2137, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2368, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2145, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2350, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2155, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2111, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2656, device='cuda:0', grad_fn=<DivBackward0>)
+t1
+t2
+t4
+tensor(1.2196, device='cuda:0', grad_fn=<DivBackward0>)
+tensor(1.2237, device='cuda:0', grad_fn=<DivBackward0>)
+Traceback (most recent call last):
+  File "/home/tzeng/repos/kv_na/train.py", line 311, in <module>
+    scaler.scale(loss).backward()
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/autograd/__init__.py", line 353, in backward
+    _engine_run_backward(
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/autograd/graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

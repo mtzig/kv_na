@@ -1,0 +1,15 @@
+{"time":"2025-09-16T20:30:03.501497272-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/tzeng/repos/kv_na/wandb/run-20250916_203003-bidyjq15/logs/debug-core.log"}
+{"time":"2025-09-16T20:30:04.01357789-05:00","level":"INFO","msg":"created new stream","id":"bidyjq15"}
+{"time":"2025-09-16T20:30:04.013642635-05:00","level":"INFO","msg":"stream: started","id":"bidyjq15"}
+{"time":"2025-09-16T20:30:04.013695708-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"bidyjq15"}
+{"time":"2025-09-16T20:30:04.01372605-05:00","level":"INFO","msg":"sender: started","stream_id":"bidyjq15"}
+{"time":"2025-09-16T20:30:04.013776091-05:00","level":"INFO","msg":"handler: started","stream_id":"bidyjq15"}
+{"time":"2025-09-16T20:30:04.233875769-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-16T20:31:03.359556398-05:00","level":"INFO","msg":"stream: closing","id":"bidyjq15"}
+{"time":"2025-09-16T20:31:03.359590709-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-16T20:31:03.35963287-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-16T20:31:04.143388689-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-16T20:31:04.383305423-05:00","level":"INFO","msg":"handler: closed","stream_id":"bidyjq15"}
+{"time":"2025-09-16T20:31:04.383349258-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bidyjq15"}
+{"time":"2025-09-16T20:31:04.383357888-05:00","level":"INFO","msg":"sender: closed","stream_id":"bidyjq15"}
+{"time":"2025-09-16T20:31:04.383432616-05:00","level":"INFO","msg":"stream: closed","id":"bidyjq15"}

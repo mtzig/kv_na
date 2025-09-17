@@ -1,0 +1,75 @@
+tensor(4.2783, device='cuda:0')
+tensor(4.2833, device='cuda:0')
+tensor(4.2864, device='cuda:0')
+tensor(4.2891, device='cuda:0')
+tensor(4.2893, device='cuda:0')
+tensor(4.2905, device='cuda:0')
+tensor(4.2931, device='cuda:0')
+tensor(4.2895, device='cuda:0')
+tensor(4.2833, device='cuda:0')
+tensor(4.2898, device='cuda:0')
+tensor(4.2973, device='cuda:0')
+tensor(4.2917, device='cuda:0')
+tensor(4.2908, device='cuda:0')
+tensor(4.2845, device='cuda:0')
+tensor(4.2901, device='cuda:0')
+tensor(4.2851, device='cuda:0')
+tensor(4.2875, device='cuda:0')
+tensor(4.2864, device='cuda:0')
+tensor(4.2916, device='cuda:0')
+tensor(4.2920, device='cuda:0')
+tensor(4.2836, device='cuda:0')
+tensor(4.2927, device='cuda:0')
+tensor(4.2857, device='cuda:0')
+tensor(4.2852, device='cuda:0')
+tensor(4.2935, device='cuda:0')
+tensor(4.2877, device='cuda:0')
+tensor(4.2829, device='cuda:0')
+tensor(4.2891, device='cuda:0')
+tensor(4.2858, device='cuda:0')
+tensor(4.2943, device='cuda:0')
+tensor(4.2911, device='cuda:0')
+tensor(4.2838, device='cuda:0')
+tensor(4.2894, device='cuda:0')
+tensor(4.2913, device='cuda:0')
+tensor(4.2857, device='cuda:0')
+tensor(4.2845, device='cuda:0')
+tensor(4.2882, device='cuda:0')
+Traceback (most recent call last):
+  File "/home/tzeng/repos/kv_na/train.py", line 265, in <module>
+    losses = estimate_loss()
+             ^^^^^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/repos/kv_na/train.py", line 224, in estimate_loss
+    logits, loss = model(X, Y)
+                   ^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/repos/kv_na/model.py", line 216, in forward
+    x = block(x)
+        ^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/repos/kv_na/model.py", line 104, in forward
+    x = x + self.attn(self.ln_1(x))
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/repos/kv_na/model.py", line 57, in forward
+    k = k.view(B, T, self.n_head, C // self.n_head).transpose(1, 2) # (B, nh, T, hs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,23 @@
+2025-09-16 19:59:55,069 INFO    MainThread:34217 [wandb_setup.py:_flush():81] Current SDK version is 0.21.4
+2025-09-16 19:59:55,069 INFO    MainThread:34217 [wandb_setup.py:_flush():81] Configure stats pid to 34217
+2025-09-16 19:59:55,069 INFO    MainThread:34217 [wandb_setup.py:_flush():81] Loading settings from /home/tzeng/.config/wandb/settings
+2025-09-16 19:59:55,069 INFO    MainThread:34217 [wandb_setup.py:_flush():81] Loading settings from /home/tzeng/repos/kv_na/wandb/settings
+2025-09-16 19:59:55,069 INFO    MainThread:34217 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-09-16 19:59:55,069 INFO    MainThread:34217 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /home/tzeng/repos/kv_na/wandb/run-20250916_195955-egg3ygbh/logs/debug.log
+2025-09-16 19:59:55,069 INFO    MainThread:34217 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /home/tzeng/repos/kv_na/wandb/run-20250916_195955-egg3ygbh/logs/debug-internal.log
+2025-09-16 19:59:55,069 INFO    MainThread:34217 [wandb_init.py:init():813] calling init triggers
+2025-09-16 19:59:55,069 INFO    MainThread:34217 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'out_dir': 'out-shakespeare-char', 'eval_interval': 250, 'log_interval': 10, 'eval_iters': 200, 'eval_only': False, 'always_save_checkpoint': False, 'init_from': 'scratch', 'wandb_log': True, 'wandb_project': 'shakespeare-char', 'wandb_run_name': 'mini-gpt-testslow', 'dataset': 'shakespeare_char', 'gradient_accumulation_steps': 1, 'batch_size': 64, 'block_size': 256, 'n_layer': 6, 'n_head': 6, 'n_embd': 384, 'dropout': 0.2, 'bias': False, 'learning_rate': 0.001, 'max_iters': 5000, 'weight_decay': 0.1, 'beta1': 0.9, 'beta2': 0.99, 'grad_clip': 1.0, 'decay_lr': True, 'warmup_iters': 100, 'lr_decay_iters': 5000, 'min_lr': 0.0001, 'backend': 'nccl', 'device': 'cuda', 'dtype': 'bfloat16', 'compile': False, '_wandb': {}}
+2025-09-16 19:59:55,069 INFO    MainThread:34217 [wandb_init.py:init():854] starting backend
+2025-09-16 19:59:55,273 INFO    MainThread:34217 [wandb_init.py:init():857] sending inform_init request
+2025-09-16 19:59:55,276 INFO    MainThread:34217 [wandb_init.py:init():865] backend started and connected
+2025-09-16 19:59:55,276 INFO    MainThread:34217 [wandb_init.py:init():936] updated telemetry
+2025-09-16 19:59:55,278 INFO    MainThread:34217 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-09-16 19:59:56,002 INFO    MainThread:34217 [wandb_init.py:init():1011] starting run threads in backend
+2025-09-16 19:59:56,032 INFO    MainThread:34217 [wandb_run.py:_console_start():2506] atexit reg
+2025-09-16 19:59:56,032 INFO    MainThread:34217 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-09-16 19:59:56,032 INFO    MainThread:34217 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-09-16 19:59:56,032 INFO    MainThread:34217 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-09-16 19:59:56,035 INFO    MainThread:34217 [wandb_init.py:init():1049] run started, returning control to user process
+2025-09-16 20:02:51,787 INFO    wandb-AsyncioManager-main:34217 [service_client.py:_forward_responses():84] Reached EOF.
+2025-09-16 20:02:51,787 INFO    wandb-AsyncioManager-main:34217 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

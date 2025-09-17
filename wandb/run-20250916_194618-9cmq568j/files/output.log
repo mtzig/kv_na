@@ -1,0 +1,98 @@
+Traceback (most recent call last):
+  File "/home/tzeng/repos/kv_na/train.py", line 264, in <module>
+    losses = estimate_loss()
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/tzeng/repos/kv_na/train.py", line 224, in estimate_loss
+    logits, loss = model(X, Y)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 375, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+    return fn(*args, **kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 1495, in __call__
+    return self._torchdynamo_orig_callable(
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 1272, in __call__
+    result = self._inner_convert(
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 629, in __call__
+    return _compile(
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 1111, in _compile
+    guarded_code = compile_inner(code, one_graph, hooks, transform)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_utils_internal.py", line 97, in wrapper_function
+    return function(*args, **kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 793, in compile_inner
+    return _compile_inner(code, one_graph, hooks, transform)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 832, in _compile_inner
+    out_code = transform_code_object(code, transform)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/bytecode_transformation.py", line 1424, in transform_code_object
+    transformations(instructions, code_options)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 267, in _fn
+    return fn(*args, **kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 753, in transform
+    tracer.run()
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 3497, in run
+    super().run()
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1363, in run
+    while self.step():
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1267, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 834, in wrapper
+    return inner_fn(self, inst)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 2177, in CALL_FUNCTION
+    self.call_function(fn, args, {})
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1193, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/variables/nn_module.py", line 1000, in call_function
+    return variables.UserFunctionVariable(fn, source=source).call_function(
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/variables/functions.py", line 529, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/variables/functions.py", line 293, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1210, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 3698, in inline_call
+    return tracer.inline_call_()
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 3901, in inline_call_
+    self.run()
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1363, in run
+    while self.step():
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 1267, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 425, in impl
+    self.push(fn_var.call_function(self, self.popn(nargs), {}))
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 1189, in call_function
+    return handler(tx, args, kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/variables/builtin.py", line 1149, in _handle_insert_op_in_graph
+    return wrap_fx_proxy(tx, proxy)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 2559, in wrap_fx_proxy
+    return wrap_fx_proxy_cls(target_cls=TensorVariable, **kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 2625, in wrap_fx_proxy_cls
+    return _wrap_fx_proxy(
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 2723, in _wrap_fx_proxy
+    example_value = get_fake_value(proxy.node, tx, allow_non_graph_fake=True)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 3253, in get_fake_value
+    ret_val = wrap_fake_exception(
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 2753, in wrap_fake_exception
+    return fn()
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 3254, in <lambda>
+    lambda: run_node(tx.output, node, args, kwargs, nnmodule)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_dynamo/utils.py", line 3421, in run_node
+    return node.target(*args, **kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/utils/_stats.py", line 28, in wrapper
+    return fn(*args, **kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_subclasses/fake_tensor.py", line 1352, in __torch_dispatch__
+    return self.dispatch(func, types, args, kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/_subclasses/fake_tensor.py", line 2038, in dispatch
+    log.debug("%s %s %s", func, args, kwargs)
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/logging/__init__.py", line 1464, in debug
+    if self.isEnabledFor(DEBUG):
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/logging/__init__.py", line 1724, in isEnabledFor
+    def isEnabledFor(self, level):
+KeyboardInterrupt

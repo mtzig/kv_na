@@ -1,0 +1,15 @@
+{"time":"2025-09-16T20:42:44.391043248-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/tzeng/repos/kv_na/wandb/run-20250916_204244-kkybuafp/logs/debug-core.log"}
+{"time":"2025-09-16T20:42:44.906136151-05:00","level":"INFO","msg":"created new stream","id":"kkybuafp"}
+{"time":"2025-09-16T20:42:44.906188111-05:00","level":"INFO","msg":"stream: started","id":"kkybuafp"}
+{"time":"2025-09-16T20:42:44.906218275-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"kkybuafp"}
+{"time":"2025-09-16T20:42:44.906251014-05:00","level":"INFO","msg":"handler: started","stream_id":"kkybuafp"}
+{"time":"2025-09-16T20:42:44.906287681-05:00","level":"INFO","msg":"sender: started","stream_id":"kkybuafp"}
+{"time":"2025-09-16T20:42:45.068390412-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-16T20:50:50.381589293-05:00","level":"INFO","msg":"stream: closing","id":"kkybuafp"}
+{"time":"2025-09-16T20:50:50.381623677-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-16T20:50:50.38166581-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-16T20:50:51.30506258-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-16T20:50:51.823283326-05:00","level":"INFO","msg":"handler: closed","stream_id":"kkybuafp"}
+{"time":"2025-09-16T20:50:51.823313459-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kkybuafp"}
+{"time":"2025-09-16T20:50:51.823367974-05:00","level":"INFO","msg":"sender: closed","stream_id":"kkybuafp"}
+{"time":"2025-09-16T20:50:51.823393978-05:00","level":"INFO","msg":"stream: closed","id":"kkybuafp"}

@@ -1,0 +1,15 @@
+{"time":"2025-09-16T20:29:10.420796522-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/tzeng/repos/kv_na/wandb/run-20250916_202910-udg5qyhd/logs/debug-core.log"}
+{"time":"2025-09-16T20:29:10.742845672-05:00","level":"INFO","msg":"created new stream","id":"udg5qyhd"}
+{"time":"2025-09-16T20:29:10.742894996-05:00","level":"INFO","msg":"stream: started","id":"udg5qyhd"}
+{"time":"2025-09-16T20:29:10.742944362-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"udg5qyhd"}
+{"time":"2025-09-16T20:29:10.742989439-05:00","level":"INFO","msg":"handler: started","stream_id":"udg5qyhd"}
+{"time":"2025-09-16T20:29:10.743004496-05:00","level":"INFO","msg":"sender: started","stream_id":"udg5qyhd"}
+{"time":"2025-09-16T20:29:10.912096986-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-16T20:29:18.172280154-05:00","level":"INFO","msg":"stream: closing","id":"udg5qyhd"}
+{"time":"2025-09-16T20:29:18.172449447-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-16T20:29:18.172526301-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-16T20:29:18.220920012-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-16T20:29:18.638858568-05:00","level":"INFO","msg":"handler: closed","stream_id":"udg5qyhd"}
+{"time":"2025-09-16T20:29:18.63889534-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"udg5qyhd"}
+{"time":"2025-09-16T20:29:18.638943636-05:00","level":"INFO","msg":"sender: closed","stream_id":"udg5qyhd"}
+{"time":"2025-09-16T20:29:18.638961595-05:00","level":"INFO","msg":"stream: closed","id":"udg5qyhd"}

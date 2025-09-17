@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/home/tzeng/repos/kv_na/train.py", line 265, in <module>
+    if iter_num % eval_interval == 0 and master_process:
+                 ^^^^^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/repos/kv_na/train.py", line 224, in estimate_loss
+    logits, loss = model(X, Y)
+                   ^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/repos/kv_na/model.py", line 218, in forward
+    step_logits = self.lm_head(x[:, [-1], :])        # (b, 1, vocab_size)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _wrapped_call_impl
+    def _wrapped_call_impl(self, *args, **kwargs):
+
+KeyboardInterrupt

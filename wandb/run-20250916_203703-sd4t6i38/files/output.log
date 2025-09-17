@@ -1,0 +1,44 @@
+step 0: train loss 4.3317, val loss 4.3198
+iter 0: loss 4.3016, time 1607.72ms, mfu -100.00%
+iter 10: loss 3.2400, time 331.73ms, mfu 0.13%
+iter 20: loss 2.7927, time 375.66ms, mfu 0.13%
+iter 30: loss 2.6465, time 253.43ms, mfu 0.13%
+iter 40: loss 2.5806, time 429.34ms, mfu 0.13%
+iter 50: loss 2.5624, time 310.07ms, mfu 0.13%
+iter 60: loss 2.5082, time 250.16ms, mfu 0.13%
+iter 70: loss 2.5339, time 416.09ms, mfu 0.13%
+Traceback (most recent call last):
+  File "/home/tzeng/repos/kv_na/train.py", line 301, in <module>
+    logits, loss = model(X, Y)
+                   ^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/repos/kv_na/model.py", line 214, in forward
+    x = block(x)                                 # (b, k, n_embd)
+        ^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/repos/kv_na/model.py", line 105, in forward
+    x = x + self.mlp(self.ln_2(x))
+                     ^^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/repos/kv_na/model.py", line 27, in forward
+    return F.layer_norm(input, self.weight.shape, self.weight, self.bias, 1e-5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tzeng/anaconda3/lib/python3.12/site-packages/torch/nn/functional.py", line 2910, in layer_norm
+    return torch.layer_norm(
+           ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

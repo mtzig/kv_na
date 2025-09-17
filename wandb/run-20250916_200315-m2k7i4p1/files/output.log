@@ -1,0 +1,1116 @@
+debug
+step 0: train loss 4.2874, val loss 4.2823
+iter 0: loss 4.2682, time 4091.11ms, mfu -100.00%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 10: loss 3.1455, time 26.98ms, mfu 13.81%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 20: loss 2.7333, time 26.32ms, mfu 13.84%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 30: loss 2.6184, time 26.93ms, mfu 13.84%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 40: loss 2.5768, time 27.04ms, mfu 13.84%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 50: loss 2.5253, time 26.53ms, mfu 13.86%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 60: loss 2.5103, time 26.41ms, mfu 13.88%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 70: loss 2.4913, time 26.99ms, mfu 13.87%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 80: loss 2.4994, time 26.70ms, mfu 13.88%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 90: loss 2.4647, time 26.65ms, mfu 13.89%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 100: loss 2.4623, time 26.64ms, mfu 13.90%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 110: loss 2.4537, time 26.85ms, mfu 13.90%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 120: loss 2.4254, time 26.65ms, mfu 13.91%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 130: loss 2.4146, time 26.43ms, mfu 13.93%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 140: loss 2.4002, time 26.82ms, mfu 13.92%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 150: loss 2.4021, time 26.81ms, mfu 13.92%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 160: loss 2.3727, time 26.74ms, mfu 13.92%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 170: loss 2.3367, time 26.44ms, mfu 13.94%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 180: loss 2.3146, time 26.52ms, mfu 13.95%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 190: loss 2.2503, time 26.82ms, mfu 13.95%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 200: loss 2.2246, time 26.55ms, mfu 13.95%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 210: loss 2.1400, time 26.70ms, mfu 13.95%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 220: loss 2.1398, time 26.79ms, mfu 13.95%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 230: loss 2.0865, time 26.81ms, mfu 13.94%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 240: loss 2.0770, time 26.56ms, mfu 13.95%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+step 250: train loss 1.9634, val loss 2.0599
+saving checkpoint to out-shakespeare-char
+iter 250: loss 2.0399, time 3606.47ms, mfu 12.57%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 260: loss 1.9768, time 26.85ms, mfu 12.70%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 270: loss 1.9730, time 26.86ms, mfu 12.82%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 280: loss 1.9800, time 27.06ms, mfu 12.91%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 290: loss 1.9211, time 26.90ms, mfu 13.01%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 300: loss 1.9102, time 26.85ms, mfu 13.09%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 310: loss 1.8669, time 26.85ms, mfu 13.17%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 320: loss 1.8598, time 26.97ms, mfu 13.24%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 330: loss 1.8188, time 26.63ms, mfu 13.31%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 340: loss 1.7981, time 26.99ms, mfu 13.36%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 350: loss 1.8363, time 26.85ms, mfu 13.41%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 360: loss 1.7752, time 26.93ms, mfu 13.45%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 370: loss 1.7357, time 26.98ms, mfu 13.49%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 380: loss 1.7371, time 26.93ms, mfu 13.53%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 390: loss 1.7320, time 27.08ms, mfu 13.55%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 400: loss 1.7657, time 26.93ms, mfu 13.58%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 410: loss 1.6952, time 26.74ms, mfu 13.61%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 420: loss 1.7190, time 26.65ms, mfu 13.65%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 430: loss 1.6918, time 26.84ms, mfu 13.67%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 440: loss 1.6541, time 26.88ms, mfu 13.69%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 450: loss 1.6534, time 26.87ms, mfu 13.71%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 460: loss 1.6002, time 27.07ms, mfu 13.72%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 470: loss 1.6607, time 26.89ms, mfu 13.73%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 480: loss 1.6240, time 26.47ms, mfu 13.76%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 490: loss 1.6040, time 26.53ms, mfu 13.79%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+step 500: train loss 1.5302, val loss 1.7281
+saving checkpoint to out-shakespeare-char
+iter 500: loss 1.6011, time 3537.17ms, mfu 12.42%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 510: loss 1.6191, time 27.04ms, mfu 12.56%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 520: loss 1.5994, time 26.95ms, mfu 12.69%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 530: loss 1.5565, time 27.01ms, mfu 12.80%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 540: loss 1.6201, time 26.68ms, mfu 12.91%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 550: loss 1.5718, time 27.01ms, mfu 13.00%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 560: loss 1.5612, time 26.92ms, mfu 13.09%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 570: loss 1.5736, time 26.89ms, mfu 13.16%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 580: loss 1.5386, time 26.92ms, mfu 13.23%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 590: loss 1.4975, time 27.14ms, mfu 13.28%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 600: loss 1.5213, time 26.95ms, mfu 13.34%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 610: loss 1.5517, time 26.78ms, mfu 13.39%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 620: loss 1.5257, time 27.07ms, mfu 13.43%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 630: loss 1.5132, time 26.91ms, mfu 13.47%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 640: loss 1.4702, time 25.85ms, mfu 13.57%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 650: loss 1.5012, time 25.95ms, mfu 13.65%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 660: loss 1.5047, time 26.09ms, mfu 13.71%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 670: loss 1.4510, time 25.98ms, mfu 13.77%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 680: loss 1.5040, time 25.69ms, mfu 13.85%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 690: loss 1.4616, time 25.94ms, mfu 13.90%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 700: loss 1.4871, time 25.91ms, mfu 13.95%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 710: loss 1.4531, time 25.98ms, mfu 13.99%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 720: loss 1.4417, time 26.04ms, mfu 14.02%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 730: loss 1.4191, time 26.11ms, mfu 14.04%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 740: loss 1.4249, time 25.92ms, mfu 14.08%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+step 750: train loss 1.3596, val loss 1.5796
+saving checkpoint to out-shakespeare-char
+iter 750: loss 1.4217, time 3459.05ms, mfu 12.68%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 760: loss 1.4397, time 26.47ms, mfu 12.82%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 770: loss 1.4265, time 26.43ms, mfu 12.95%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 780: loss 1.4143, time 26.52ms, mfu 13.06%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 790: loss 1.4143, time 26.40ms, mfu 13.16%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 800: loss 1.4216, time 26.33ms, mfu 13.26%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 810: loss 1.4019, time 26.74ms, mfu 13.33%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 820: loss 1.4092, time 26.31ms, mfu 13.41%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 830: loss 1.3846, time 26.58ms, mfu 13.47%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 840: loss 1.4084, time 26.62ms, mfu 13.53%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 850: loss 1.3812, time 26.64ms, mfu 13.57%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 860: loss 1.3968, time 26.63ms, mfu 13.61%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 870: loss 1.3909, time 26.91ms, mfu 13.64%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 880: loss 1.3736, time 26.88ms, mfu 13.66%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 890: loss 1.3856, time 26.65ms, mfu 13.69%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 900: loss 1.3653, time 26.55ms, mfu 13.73%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 910: loss 1.3165, time 26.59ms, mfu 13.76%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 920: loss 1.3608, time 26.57ms, mfu 13.78%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 930: loss 1.3628, time 26.42ms, mfu 13.81%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 940: loss 1.3478, time 26.68ms, mfu 13.83%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 950: loss 1.3526, time 26.66ms, mfu 13.84%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 960: loss 1.3622, time 26.68ms, mfu 13.86%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 970: loss 1.3539, time 26.63ms, mfu 13.87%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 980: loss 1.3518, time 26.62ms, mfu 13.88%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+iter 990: loss 1.3357, time 26.68ms, mfu 13.89%
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+Traceback (most recent call last):
+  File "/home/tzeng/repos/kv_na/train.py", line 266, in <module>
+    losses = estimate_loss()
+  File "/home/tzeng/anaconda3/envs/lm-arch-comparison/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/tzeng/repos/kv_na/train.py", line 225, in estimate_loss
+    losses[k] = loss.item()
+KeyboardInterrupt

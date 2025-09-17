@@ -1,0 +1,15 @@
+{"time":"2025-09-16T20:32:36.053593802-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/tzeng/repos/kv_na/wandb/run-20250916_203236-vlxws86o/logs/debug-core.log"}
+{"time":"2025-09-16T20:32:36.453502837-05:00","level":"INFO","msg":"created new stream","id":"vlxws86o"}
+{"time":"2025-09-16T20:32:36.453606206-05:00","level":"INFO","msg":"stream: started","id":"vlxws86o"}
+{"time":"2025-09-16T20:32:36.453739189-05:00","level":"INFO","msg":"handler: started","stream_id":"vlxws86o"}
+{"time":"2025-09-16T20:32:36.453722584-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"vlxws86o"}
+{"time":"2025-09-16T20:32:36.453783232-05:00","level":"INFO","msg":"sender: started","stream_id":"vlxws86o"}
+{"time":"2025-09-16T20:32:36.614562775-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-16T20:34:13.922260586-05:00","level":"INFO","msg":"stream: closing","id":"vlxws86o"}
+{"time":"2025-09-16T20:34:13.922298203-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-16T20:34:13.922354787-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-16T20:34:14.561095796-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-16T20:34:15.029771051-05:00","level":"INFO","msg":"handler: closed","stream_id":"vlxws86o"}
+{"time":"2025-09-16T20:34:15.029810971-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vlxws86o"}
+{"time":"2025-09-16T20:34:15.029841605-05:00","level":"INFO","msg":"sender: closed","stream_id":"vlxws86o"}
+{"time":"2025-09-16T20:34:15.029863796-05:00","level":"INFO","msg":"stream: closed","id":"vlxws86o"}

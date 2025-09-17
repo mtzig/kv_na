@@ -1,0 +1,15 @@
+{"time":"2025-09-16T20:51:13.531334477-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/tzeng/repos/kv_na/wandb/run-20250916_205113-aoxlhidv/logs/debug-core.log"}
+{"time":"2025-09-16T20:51:14.038430868-05:00","level":"INFO","msg":"created new stream","id":"aoxlhidv"}
+{"time":"2025-09-16T20:51:14.038521442-05:00","level":"INFO","msg":"stream: started","id":"aoxlhidv"}
+{"time":"2025-09-16T20:51:14.038604704-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"aoxlhidv"}
+{"time":"2025-09-16T20:51:14.038637424-05:00","level":"INFO","msg":"handler: started","stream_id":"aoxlhidv"}
+{"time":"2025-09-16T20:51:14.038731068-05:00","level":"INFO","msg":"sender: started","stream_id":"aoxlhidv"}
+{"time":"2025-09-16T20:51:14.256811898-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-16T20:51:47.510452545-05:00","level":"INFO","msg":"stream: closing","id":"aoxlhidv"}
+{"time":"2025-09-16T20:51:47.510475003-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-16T20:51:47.510556082-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-16T20:51:47.981870279-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-16T20:51:48.210097522-05:00","level":"INFO","msg":"handler: closed","stream_id":"aoxlhidv"}
+{"time":"2025-09-16T20:51:48.210126252-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"aoxlhidv"}
+{"time":"2025-09-16T20:51:48.210136328-05:00","level":"INFO","msg":"sender: closed","stream_id":"aoxlhidv"}
+{"time":"2025-09-16T20:51:48.210201508-05:00","level":"INFO","msg":"stream: closed","id":"aoxlhidv"}

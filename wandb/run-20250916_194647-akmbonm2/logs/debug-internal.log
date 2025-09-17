@@ -1,0 +1,6 @@
+{"time":"2025-09-16T19:46:48.17208099-05:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-16T19:46:48.679829048-05:00","level":"INFO","msg":"stream: created new stream","id":"akmbonm2"}
+{"time":"2025-09-16T19:46:48.679871052-05:00","level":"INFO","msg":"stream: started","id":"akmbonm2"}
+{"time":"2025-09-16T19:46:48.67991366-05:00","level":"INFO","msg":"writer: started","stream_id":"akmbonm2"}
+{"time":"2025-09-16T19:46:48.679936084-05:00","level":"INFO","msg":"sender: started","stream_id":"akmbonm2"}
+{"time":"2025-09-16T19:46:48.679977968-05:00","level":"INFO","msg":"handler: started","stream_id":"akmbonm2"}

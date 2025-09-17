@@ -1,0 +1,7 @@
+{"time":"2025-09-16T21:15:15.338807957-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/tzeng/repos/kv_na/wandb/run-20250916_211515-y0jl2i9o/logs/debug-core.log"}
+{"time":"2025-09-16T21:15:15.688436544-05:00","level":"INFO","msg":"created new stream","id":"y0jl2i9o"}
+{"time":"2025-09-16T21:15:15.688509723-05:00","level":"INFO","msg":"stream: started","id":"y0jl2i9o"}
+{"time":"2025-09-16T21:15:15.688562046-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"y0jl2i9o"}
+{"time":"2025-09-16T21:15:15.688580786-05:00","level":"INFO","msg":"sender: started","stream_id":"y0jl2i9o"}
+{"time":"2025-09-16T21:15:15.68873698-05:00","level":"INFO","msg":"handler: started","stream_id":"y0jl2i9o"}
+{"time":"2025-09-16T21:15:15.923579318-05:00","level":"INFO","msg":"Starting system monitor"}

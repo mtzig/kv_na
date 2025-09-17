@@ -1,0 +1,41 @@
+{
+  "os":  "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python":  "CPython 3.10.18",
+  "startedAt":  "2025-09-17T00:40:38.723682Z",
+  "args":  [
+    "config/train_shakespeare_char.py"
+  ],
+  "program":  "/home/tzeng/repos/kv_na/train.py",
+  "codePath":  "train.py",
+  "codePathLocal":  "train.py",
+  "git":  {
+    "remote":  "git@github.com:mtzig/kv_na.git"
+  },
+  "email":  "tomzeng200@gmail.com",
+  "root":  "/home/tzeng/repos/kv_na",
+  "host":  "TI-100",
+  "executable":  "/home/tzeng/anaconda3/envs/lm-arch-comparison/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "gpu":  "NVIDIA GeForce RTX 5070 Ti",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "1081101176832",
+      "used":  "162657226752"
+    }
+  },
+  "memory":  {
+    "total":  "16297312256"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 5070 Ti",
+      "memoryTotal":  "17094934528",
+      "architecture":  "Blackwell",
+      "uuid":  "GPU-fbeb9451-43e8-2f9e-c21d-4f1cf0426b6f"
+    }
+  ],
+  "cudaVersion":  "12.9",
+  "writerId":  "yivbb7iryy68uf8ioktpcfmh75ahfh8s"
+}

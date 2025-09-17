@@ -1,0 +1,15 @@
+{"time":"2025-09-16T20:08:46.33530939-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/tzeng/repos/kv_na/wandb/run-20250916_200846-wspgwr2w/logs/debug-core.log"}
+{"time":"2025-09-16T20:08:46.899532097-05:00","level":"INFO","msg":"created new stream","id":"wspgwr2w"}
+{"time":"2025-09-16T20:08:46.899571643-05:00","level":"INFO","msg":"stream: started","id":"wspgwr2w"}
+{"time":"2025-09-16T20:08:46.899641828-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"wspgwr2w"}
+{"time":"2025-09-16T20:08:46.899725181-05:00","level":"INFO","msg":"sender: started","stream_id":"wspgwr2w"}
+{"time":"2025-09-16T20:08:46.900723258-05:00","level":"INFO","msg":"handler: started","stream_id":"wspgwr2w"}
+{"time":"2025-09-16T20:08:47.064099089-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-16T20:15:03.346917018-05:00","level":"INFO","msg":"stream: closing","id":"wspgwr2w"}
+{"time":"2025-09-16T20:15:03.346938393-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-16T20:15:03.346985205-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-16T20:15:03.895373555-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-16T20:15:04.107994008-05:00","level":"INFO","msg":"handler: closed","stream_id":"wspgwr2w"}
+{"time":"2025-09-16T20:15:04.108035662-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wspgwr2w"}
+{"time":"2025-09-16T20:15:04.108067102-05:00","level":"INFO","msg":"sender: closed","stream_id":"wspgwr2w"}
+{"time":"2025-09-16T20:15:04.108120484-05:00","level":"INFO","msg":"stream: closed","id":"wspgwr2w"}
